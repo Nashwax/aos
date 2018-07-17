@@ -1,0 +1,28 @@
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+.item {
+  width: 200px;
+  height: 200px;
+    margin: 20px;
+  background: deepskyblue;
+  color: #FFF;
+  font-size: 3em;
+}
+
+.fixedX {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #9e0d0d;
+}
+
+.rightX {
+    left: auto;
+    right: 0px;
+    background-color:cornflowerblue;
+}
